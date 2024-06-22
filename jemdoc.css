@@ -13,8 +13,13 @@ body {
 }
 
 body > h1 {
-  font-family: "ComputerModernSansDC", sans-serif;
+  font-family: "ComputerModernSansBold", sans-serif;
 }
+
+body > b {
+  font-family: "ComputerModernSansBold", sans-serif;
+}
+
 .title:hover {
 	text-decoration: underline;
 }
@@ -120,8 +125,9 @@ em {
 	font-style: italic;
 }
 
-strong {
+strong, b {
 	font-weight: bold;
+  font-family: "ComputerModernSansBold", sans-serif;
 }
 
 
@@ -139,6 +145,7 @@ h1, h2, h3 {
 h1 {
 	font-size: 165%;
   font-weight: bold;
+  font-family: "ComputerModernSansBold", sans-serif;
 }
 
 h2 {
@@ -387,6 +394,11 @@ table.imgcenter td {
 @font-face {
   font-family: "ComputerModernSans";
   src: url('./fonts/Sans/cmunss.ttf');
+}
+
+@font-face {
+  font-family: "ComputerModernSansBold";
+  src: url('./fonts/Sans/cmunsx.ttf');
 }
 
 @font-face {
